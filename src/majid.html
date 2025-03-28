@@ -11,7 +11,7 @@
         <header class="h-[100px] p-4 sm:bg-[#ffffff71] xl:bg-white bg-white flex justify-between items-center">
             <img src="./img/windom logo 4.png" alt="">
             <div class="hidden xl:block">
-                <ul class="hidde xl:block xl:flex xl:gap-4">
+                <ul class=" xl:flex xl:gap-4">
                     <li><a href="#">Наши проекты</a></li>
                     <li><a href="#">Дома</a></li>
                     <li><a href="#">Ипотека</a></li>
@@ -38,6 +38,92 @@
             </article>
         </section>
     </nav>
+
+    <section class="p-5">
+        <h1 class="md:text-[46px]  xl:text-start text-[30px]">ИПОТЕКА</h1><br>
+        <article class="flex justify-around">
+            <div class="flex    justify-center xl:justify-start ">
+                <div class="bg-white p-6 rounded-lg shadow-lg w-80">
+                    <label class="block text-gray-700">Вид недвижимости</label>
+                    <select class="w-full p-2 border rounded mt-1">
+                        <option>Все</option>
+                    </select>
+            
+                    <label class="block text-gray-700 mt-3">Проект</label>
+                    <select class="w-full p-2 border rounded mt-1">
+                        <option>Все</option>
+                    </select>
+            
+                    <label class="block text-gray-700 mt-3">Вид ипотеки</label>
+                    <select class="w-full p-2 border rounded mt-1">
+                        <option>Все</option>
+                    </select>
+            
+                    <label class="block text-gray-700 mt-3">Стоимость</label>
+                    <input type="range" min="1000000" max="10000000" value="3000000" class="w-full mt-1">
+                    <input type="text" value="3 000 000 ₽" class="w-full p-2 border rounded mt-1 text-right" readonly>
+            
+                    <label class="block text-gray-700 mt-3">Первоначальный взнос</label>
+                    <input type="range" min="500000" max="5000000" value="2000000" class="w-full mt-1">
+                    <input type="text" value="2 000 000 ₽" class="w-full p-2 border rounded mt-1 text-right" readonly>
+            
+                    <label class="block text-gray-700 mt-3">Ежемесячный платёж</label>
+                    <input type="range" min="10000" max="100000" value="60000" class="w-full mt-1">
+                    <input type="text" value="60 000 ₽" class="w-full p-2 border rounded mt-1 text-right" readonly>
+            
+                    <button class="w-full bg-orange-500 text-white p-2 rounded mt-4">Рассчитать платёж</button>
+                </div>
+            </div>
+            
+                <div class="md:grid grid-cols-2 grid-rows-2 hidden   gap-4">
+                    <div class="border-2  border-gray-300 p-4 rounded-lg">
+                        <div class="flex items-center gap-3 font-bold">
+                        <img src="./img/Vector (1).png" alt="">
+                        <p class="text-sm">АО “Альфа банк”</p>
+                    </div><br>
+                    <p>Ставка</p><br>
+                    <p class="md:text-24px font-bold">4,1 %</p><br>
+                    <p>от 4 000    / мес </p><br>
+                    <p>Программа</p><br>
+                    <p>Семейная</p>
+                    </div>
+                    <div class="border-2  border-gray-300 p-4 rounded-lg">
+                        <div class="flex items-center gap-3 font-bold">
+                        <img src="./img/Vector.png" alt="">
+                        <p class="text-sm">Банк ВТБ (ПАО)</p>
+                    </div><br>
+                    <p>Ставка</p><br>
+                    <p class="md:text-24px font-bold">4,1 %</p><br>
+                    <p>от 4 000    / мес </p><br>
+                    <p>Программа</p><br>
+                    <p>Семейная</p>
+                    </div>
+                    <div class="border-2  border-gray-300 p-4 rounded-lg">
+                        <div class="flex items-center gap-3 font-bold">
+                            <img src="./img/sovcombank-svgrepo-com 1.png" alt="">
+                        <p class="text-sm">ПАО Сбербанк</p>
+                        </div><br>
+                        <p>Ставка</p><br>
+                    <p class="md:text-24px font-bold">4,1 %</p><br>
+                    <p>от 4 000    / мес </p><br>
+                    <p>Программа</p><br>
+                    <p>Семейная</p>
+                    </div>
+                    <div class="border-2  border-gray-300 p-4 rounded-lg">
+                        <div class="flex items-center gap-3 font-bold">
+                        <img src="./img/Group 209.png" alt="">
+                        <p class="text-sm">ПАО “Совкомбанк”</p>
+                    </div><br>
+                    <p>Ставка</p><br>
+                    <p class="md:text-24px font-bold">4,1 %</p><br>
+                    <p>от 4 000    / мес </p><br>
+                    <p>Программа</p><br>
+                    <p>Семейная</p>
+                    </div>
+                </div>
+            
+        </article>
+    </section>
 </body>
 </html>
 <!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
