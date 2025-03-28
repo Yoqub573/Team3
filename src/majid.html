@@ -164,6 +164,68 @@
         <img src="./img/Rectangle 144 (1).png" alt="">
     </section>
     <br><br><br>
+    <section>
+        <div  class="xl:flex xl:justify-between xl:items-center">
+            <p class="xl:text-[60px] hidden xl:block">Ответы на <span>Вопросы</span></p>
+            <button class="hidden xl:block p-4 bg-[#EFA35A] rounded-sm">Перезвоните мне</button>
+        </div>
+       
+        <div class="p-4">
+            <p class="xl:hidden text-[30px]">ОТВЕТЫ</p>
+            <p class="xl:hidden text-end text-yellow-400 text-[30px]">НА ВОПРОСЫ</p>
+        </div>
+    </section>
+    <div class="w-full max-w-8xl m-auto space-y-2 p-4">
+        <div class="border rounded-lg bg-gray-200">
+            <input type="checkbox" id="accordion1" class="hidden peer">
+            <label for="accordion1" class="w-full p-4 text-left font-semibold flex justify-between cursor-pointer">
+                Можно ли использовать материнский капитал для первоначального взноса?
+                <img src="./img/Group 213.png" class="xl:w-[3%] w-[40px] h-[40px]"  alt="">
+            </label>
+            <div class="hidden peer-checked:block p-4 border-t text-gray-600">
+                Да, возможно. Если средств материнского капитала не хватает для первоначального взноса, то вы можете добавить собственные средства.
+
+После рассмотрения пакета документов банк рассчитывает сумму кредита, который он может выдать на данных условиях. После этого возможны два варианта:
+
+— увеличение максимальной суммы кредита на величину материнского капитала с автоматическим уменьшением первоначального взноса;
+
+— использование материнского капитала для первоначального взноса без увеличения суммы кредита.
+            </div>
+        </div>
+        
+        <div class="border rounded-lg bg-gray-200">
+            <input type="checkbox" id="accordion2" class="hidden peer">
+            <label for="accordion2" class="w-full p-4 text-left font-semibold flex justify-between cursor-pointer">
+                Нужно ли привозить бумажные документы или все можно отправить электронно?
+                <img src="./img/Group 213.png" class="xl:w-[3%] w-[40px] h-[40px]" alt="">
+            </label>
+            <div class="hidden peer-checked:block p-4 border-t text-gray-600">
+                Для подачи заявки на ипотеку достаточно сканов или фото всех документов. Анкету на кредит также можно подписать дистанционно.
+            </div>
+        </div>
+        
+        <div class="border rounded-lg bg-gray-200">
+            <input type="checkbox" id="accordion3" class="hidden peer">
+            <label for="accordion3" class="w-full p-4 text-left font-semibold flex justify-between cursor-pointer">
+                Есть ли требование к гражданству?
+                <img src="./img/Group 213.png" class="xl:w-[3%] w-[40px] h-[40px]" alt="">
+            </label>
+            <div class="hidden peer-checked:block p-4 border-t text-gray-600">
+                По стандартным программам требования к гражданству нет. Ипотека с Господдержкой и Семейная ипотека распространяется только на граждан РФ.
+            </div>
+        </div>
+        <div class="border rounded-lg bg-gray-200">
+            <input type="checkbox" id="accordion4" class="hidden peer">
+            <label for="accordion4" class="w-full p-4 text-left font-semibold flex justify-between cursor-pointer">
+                Я работаю неофициально. У меня есть шанс получить ипотеку?
+                <img src="./img/Group 213.png" class="xl:w-[3%] w-[40px] h-[40px]" alt="">
+            </label>
+            <div class="hidden peer-checked:block p-4 border-t text-gray-600">
+                Да, ипотеку получить возможно. Практические все наши банки-партнеры могут рассмотреть заявку на ипотечный кредит по двум документам, без предоставления документов о трудоустройстве. Для этого необходимо заполнить анкету, паспорт и СНИЛС.
+            </div>
+        </div>
+        <button class=" ml-[100px] xl:hidden p-4 bg-[#EFA35A] rounded-sm">Перезвоните мне</button>
+    </div>
 </body>
 </html>
 <!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
