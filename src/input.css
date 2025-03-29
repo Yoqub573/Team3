@@ -21,6 +21,7 @@
     height: 97vh;
     background-position: center;
     background-size: cover;
+<<<<<<< HEAD
 }
 
 .box4{
@@ -28,4 +29,8 @@
     height: 80vh;
     background-position: center;
     background-size: cover;
+=======
+    background-image: url(./img/Rectangle\ 37.svg);
+    width: 100%;
+>>>>>>> 26f86dbabaf65db1e51f96f849afc89298f9cc1b
 }
