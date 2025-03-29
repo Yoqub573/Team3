@@ -21,6 +21,12 @@
     height: 97vh;
     background-position: center;
     background-size: cover;
-    background-image: url(./img/Rectangle\ 37.svg);
-    width: 100%;
+
+}
+
+.box4{
+    background-image: url(./imgfahim/Rectangle\ 112.svg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
 }
