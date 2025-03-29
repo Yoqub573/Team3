@@ -3,21 +3,14 @@
   content: ["./src/**/*.{html,js}"],
   theme: {
     screens: {
-<<<<<<< HEAD
-      'sm': '380px',
-=======
       'sm': '640px',
->>>>>>> eff2fb89f0b2aae7b36ad69249c636cdcc676be8
       // => @media (min-width: 640px) { ... }
 
       'md': '768px',
       // => @media (min-width: 768px) { ... }
-
-<<<<<<< HEAD
-      'lg': '900px',
-=======
       'lg': '1024px',
->>>>>>> eff2fb89f0b2aae7b36ad69249c636cdcc676be8
+      
+      'lg': '900px',
       // => @media (min-width: 1024px) { ... }
 
       'xl': '1280px',
